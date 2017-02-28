@@ -148,4 +148,15 @@ int main(int argc, char * argv[]) {
 	
 #endif
 	
+	map<string, int> m = {{"hello", 123}, {"world", 456}};
+	cout << "m = " << m << endl;
+
+	vector<double> v = {1.23, 4.56, 7.89};
+	cout << "v = " << v << endl;
+
+	set<int> s = {7, 8, 1};
+	cout << "s = " << s << endl;
+
+	pair<int, string> p = {100, "hi"};
+	cout << "p = " << p << endl;
 }
